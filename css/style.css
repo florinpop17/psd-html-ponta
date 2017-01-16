@@ -112,13 +112,22 @@ h5 {
     width: 160px;
 }
 
+ul.nav.navbar-nav {
+    margin-left: 220px
+}
+
+.navbar-nav > li > a, .navbar-header a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .navbar-header a.active {
     padding-top: 0;
 }
 
 .navbar-header a.active img{
     border-top: 4px solid #b21919;
-    padding-top: 11px;
+    padding-top: 16px;
 }
 
 .navbar-default {
@@ -136,7 +145,7 @@ h5 {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     background-color: transparent;
     color: #b21919;
-    padding-top: 11px;
+    padding-top: 16px;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
