@@ -43,6 +43,24 @@ h1 {
     border: 0;
 }
 
+.navbar li.active {
+    border-top: 4px solid #b21919;
+    background-color: transparent;
+}
+
+.navbar li.active a {
+    background-color: transparent;
+}
+
+.navbar li a {
+    color: #1d1d1b;
+    font-family: LatoBold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 /* Index page */
 
 .header-big {
