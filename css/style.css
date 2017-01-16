@@ -37,6 +37,10 @@ h1 {
 
 /* Navbar */
 
+.navbar-header a.active {
+    border-top: 4px solid #b21919;
+}
+
 .navbar-default {
     background: transparent;
     border-radius: 0;
@@ -52,6 +56,10 @@ h1 {
     background-color: transparent;
     color: #b21919;
     padding-top: 11px;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #b21919;
 }
 
 .navbar li a {
