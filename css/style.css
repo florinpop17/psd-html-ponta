@@ -27,3 +27,17 @@
     font-family: MerriweatherRegular;
     src: url("../fonts/Merriweather-Regular.ttf");
 }
+
+/* General Styles */
+
+h1 {
+    font-size: 72px;
+    font-family: LatoBlack;
+}
+
+/* Index page */
+
+.header-big {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
