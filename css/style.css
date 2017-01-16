@@ -217,6 +217,19 @@ h3 {
     font-family: LatoBold;
 }
 
+/* Kontakt page style */
+.special-header-background {
+    background-image: url("../img/contact-bw-cut.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.special-header-background:after {
+    background-color: #fff;
+}
+
 /* Footer style */
 footer {
     color: #706f6f;
