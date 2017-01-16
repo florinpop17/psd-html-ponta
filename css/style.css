@@ -190,6 +190,15 @@ h3 {
     font-size: 24px;
     color: #575756;
     font-family: MerriweatherLight;
+    margin-top: 200px;
+}
+
+.contact-info-box a {
+    font-size: 36px;
+    color: #575756;
+    font-family: LatoBlack;
+    margin-top: 50px;
+    text-decoration: underline;
 }
 
 /* Footer style */
