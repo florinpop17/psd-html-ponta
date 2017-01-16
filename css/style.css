@@ -113,6 +113,10 @@ h5 {
 }
 
 .navbar-header a.active {
+    padding-top: 0;
+}
+
+.navbar-header a.active img{
     border-top: 4px solid #b21919;
     padding-top: 11px;
 }
