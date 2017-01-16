@@ -84,6 +84,11 @@ h5 {
 .nav-breadcrumb {
     background-color: #fcfcfb;
     border-top: 1px solid #e9e9e9;
+    padding: 25px 15px;
+}
+
+.nav-breadcrumb h2 {
+    margin: 0;
 }
 
 /* Navbar */
