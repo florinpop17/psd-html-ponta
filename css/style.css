@@ -55,6 +55,14 @@ h4 {
     margin-bottom: 30px;
 }
 
+h5 {
+    color: #575756;
+    font-family: MerriweatherLight;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
 .special-header {
     position:relative;
     padding-top: 200px;
@@ -252,6 +260,25 @@ h4 {
     font-size: 16px;
     color: #575756;
     line-height: 30px;
+}
+
+.project-details a {
+    color: #b21919;
+    text-decoration: underline;
+}
+
+.project-details .inline-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-details .inline-list li{
+    color: #575756;
+    display: inline-block;
+}
+
+.project-details .inline-list li:not(:last-of-type):after {
+    content: ","
 }
 
 /* Kontakt page style */
