@@ -35,6 +35,13 @@ h1 {
     font-family: LatoBlack;
 }
 
+h3 {
+    font-size: 36px;
+    font-family: LatoBlack;
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
+
 .special-header {
     position:relative;
     padding-top: 200px;
@@ -155,6 +162,18 @@ h1 {
     position: absolute;
     top: calc(50% - 1.5px);
     right: 7px;
+}
+
+/* Agentur page */
+.art p{
+    font-family: MerriweatherLight;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.art strong {
+    font-family: MerriweatherBold;
 }
 
 /* Footer style */
