@@ -121,7 +121,7 @@ h5 {
     background: transparent;
     border-radius: 0;
     border: 0;
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 .navbar li.active {
@@ -344,7 +344,7 @@ h5 {
 .contact h2 {
     color: #1d1d1b;
     font-size: 36px;
-    font-family: LatoBold;
+    font-family: LatoBlack;
     margin-top: 130px;
 }
 
