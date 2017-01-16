@@ -46,3 +46,9 @@ h1 {
     font-family: MarriweatherRegular;
     font-size: 24px;
 }
+
+.description a {
+    display: block;
+    color: #b21919;
+    text-decoration: underline;
+}
