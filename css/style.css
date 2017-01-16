@@ -35,15 +35,24 @@ body {
 }
 
 h1 {
+    color: #1d1d1b;
     font-size: 72px;
     font-family: LatoBlack;
 }
 
 h3 {
+    color: #1d1d1b;
     font-size: 36px;
     font-family: LatoBlack;
     margin-bottom: 30px;
     margin-top: 120px;
+}
+
+h4 {
+    color: #1d1d1b;
+    font-size: 24px;
+    font-family: LatoBlack;
+    margin-bottom: 30px;
 }
 
 .special-header {
@@ -235,6 +244,14 @@ h3 {
 
 .testimonial p .name{
     font-family: LatoBold;
+}
+
+/* Single Project page style */
+.project-description p{
+    font-family: MerriweatherLight;
+    font-size: 16px;
+    color: #575756;
+    line-height: 30px;
 }
 
 /* Kontakt page style */
