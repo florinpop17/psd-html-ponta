@@ -176,6 +176,15 @@ h3 {
     font-family: MerriweatherBold;
 }
 
+.art p a {
+    color: #b21919;
+}
+
+.art p a:hover {
+    color: #b21919;
+    text-decoration: underline;
+}
+
 /* Footer style */
 footer {
     color: #706f6f;
