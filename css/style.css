@@ -313,6 +313,9 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.special-header-background h1 {
     color: #fff;
 }
 
