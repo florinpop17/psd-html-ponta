@@ -37,6 +37,8 @@ h1 {
 
 .special-header {
     position:relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .special-header:after {
@@ -46,6 +48,7 @@ h1 {
     height: 10px;
     background-color: #1d1d1b;
     left: 50%;
+    top: 330px;
     transform: translateX(-50%);
     position: absolute;
 }
@@ -181,8 +184,14 @@ footer .footer-icon img{
 
 footer a {
     color: #706f6f;
+    margin-right: 5px;
 }
 
 footer a:hover {
     color: #706f6f;
+}
+
+footer .pull-right a {
+    margin-right: 0;
+    margin-left: 10px;
 }
