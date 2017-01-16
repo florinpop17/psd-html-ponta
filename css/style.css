@@ -278,11 +278,15 @@ ul.nav.navbar-nav {
     text-decoration: underline;
 }
 
+.contact-info-box {
+    margin-top: 180px;
+    margin-bottom: 70px;
+}
+
 .contact-info-box .smart-text {
     font-size: 24px;
     color: #575756;
     font-family: MerriweatherLight;
-    margin-top: 200px;
 }
 
 .contact-info-box a {
