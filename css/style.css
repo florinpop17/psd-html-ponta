@@ -1,0 +1,29 @@
+@font-face {
+    font-family: LatoBlack;
+    src: url("../fonts/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: LatoBold;
+    src: url("../fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: LatoLight;
+    src: url("../fonts/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: MerriweatherLight;
+    src: url("../fonts/Merriweather Light.ttf");
+}
+
+@font-face {
+    font-family: MerriweatherBold;
+    src: url("../fonts/Merriweather-Bold.ttf");
+}
+
+@font-face {
+    font-family: MerriweatherRegular;
+    src: url("../fonts/Merriweather-Regular.ttf");
+}
