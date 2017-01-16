@@ -108,6 +108,10 @@ h5 {
 
 /* Navbar */
 
+.navbar-brand img {
+    width: 160px;
+}
+
 .navbar-header a.active {
     border-top: 4px solid #b21919;
 }
