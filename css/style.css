@@ -100,6 +100,22 @@ h3 {
     padding-right: 40px;
 }
 
+.navbar-right li a{
+    padding-left: 0;
+    padding-right: 0;
+    font-family: MerriweatherBold;
+}
+
+.navbar-right li.enabled a{
+    font-family: MerriweatherLight;
+    text-decoration: underline;
+}
+
+.navbar-right li:first-of-type a:after {
+    content: "/";
+    display: inline-block;
+}
+
 /* Index page */
 
 .header-big {
