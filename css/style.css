@@ -48,8 +48,10 @@ h1 {
     background-color: transparent;
 }
 
-.navbar li.active a {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     background-color: transparent;
+    color: #b21919;
+    padding-top: 11px;
 }
 
 .navbar li a {
