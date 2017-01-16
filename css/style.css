@@ -140,3 +140,23 @@ h1 {
 }
 
 /* Footer style */
+footer {
+    position: relative;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer:before {
+    position:absolute;
+    top: -2px;
+    left: 0;
+    width: 150px;
+    height: 2px;
+    background-color: #a2a2a1;
+}
+
+footer .footer-icon {
+    height: 20px;
+    width: 20px;
+}
