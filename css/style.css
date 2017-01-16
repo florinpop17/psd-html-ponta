@@ -30,6 +30,10 @@
 
 /* General Styles */
 
+body {
+    font-family: MerriweatherLight;
+}
+
 h1 {
     font-size: 72px;
     font-family: LatoBlack;
@@ -228,6 +232,36 @@ h3 {
 
 .special-header-background:after {
     background-color: #fff;
+}
+
+.contact p {
+    color: #575756;
+    font-family: MerriweatherLight;
+    font-size: 16px;
+    line-height: 34px;
+    margin-top: 50px;
+}
+
+.contact a {
+    color: #0f3e67;
+    text-decoration: underline;
+}
+
+.contact h2 {
+    color: #1d1d1b;
+    font-size: 36px;
+    font-family: LatoBold;
+    margin-top: 130px;
+}
+
+.contact-simple-box img {
+    height: 60px;
+    display: block;
+    margin: 30px auto;
+}
+
+.contact-simple-box a {
+    font-size: 20px;    
 }
 
 /* Footer style */
