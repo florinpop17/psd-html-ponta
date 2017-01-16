@@ -35,6 +35,14 @@ h1 {
     font-family: LatoBlack;
 }
 
+/* Navbar */
+
+.navbar-default {
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+}
+
 /* Index page */
 
 .header-big {
