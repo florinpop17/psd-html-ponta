@@ -35,6 +35,21 @@ h1 {
     font-family: LatoBlack;
 }
 
+.special-header {
+    position:relative;
+}
+
+.special-header:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 10px;
+    background-color: #1d1d1b;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
 /* Navbar */
 
 .navbar-header a.active {
@@ -141,22 +156,33 @@ h1 {
 
 /* Footer style */
 footer {
+    color: #706f6f;
     position: relative;
     margin-top: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-family: MerriweatherLight;
+    font-size: 14px;
 }
 
 footer:before {
     position:absolute;
     top: -2px;
-    left: 0;
+    left: 15px;
     width: 150px;
     height: 2px;
     background-color: #a2a2a1;
 }
 
-footer .footer-icon {
+footer .footer-icon img{
     height: 20px;
     width: 20px;
+}
+
+footer a {
+    color: #706f6f;
+}
+
+footer a:hover {
+    color: #706f6f;
 }
