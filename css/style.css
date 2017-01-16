@@ -201,6 +201,18 @@ h3 {
     text-decoration: underline;
 }
 
+.testimonial p {
+    font-family: MerriweatherLight;
+    font-size: 14px;
+    line-height: 25px;
+    color: #575756;
+    margin-top: 30px;
+}
+
+.testimonial p .name{
+    font-family: LatoBold;
+}
+
 /* Footer style */
 footer {
     color: #706f6f;
