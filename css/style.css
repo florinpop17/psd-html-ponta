@@ -41,3 +41,8 @@ h1 {
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
+.description {
+    font-family: MarriweatherRegular;
+    font-size: 24px;
+}
