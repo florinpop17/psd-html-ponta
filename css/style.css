@@ -347,14 +347,21 @@ ul.nav.navbar-nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
+    height: 300px;
+    padding-top: 114px;
+    padding-bottom: 114px;
+    margin-top: 50px;
 }
 
 .special-header-background h1 {
     color: #fff;
+    margin: 0;
 }
 
 .special-header-background:after {
     background-color: #fff;
+    top: 210px;
 }
 
 .contact p {
