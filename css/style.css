@@ -257,6 +257,40 @@ ul.nav.navbar-nav {
 }
 
 /* Agentur page */
+.pontateam {
+    background-image:url("../img/pontateam.jpg");
+    height: 400px;
+}
+
+.domination {
+    background-image:url("../img/banner-domination-1200.jpg");
+    height: 250px;
+}
+
+.werte {
+    background-image:url("../img/banner-werte-1200.jpg");
+    height: 250px;
+}
+
+.work {
+    background-image:url("../img/banner-work-1200.jpg");
+    height: 250px;
+}
+
+.parallax {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.parallax-sub {
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .art p{
     color: #575756;
     font-family: MerriweatherLight;
