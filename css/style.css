@@ -110,7 +110,6 @@ h5 {
 
 .navbar {
     top: -70px;
-    position: static;
     transition: top 0.5s ease;
 }
 
