@@ -241,6 +241,37 @@ ul.nav.navbar-nav {
     font-family: MerriweatherLight;
     font-size: 16px;
     line-height: 30px;
+    margin-bottom: 100px;
+}
+
+.projects .project {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.project.small, .project.medium {
+    background-color: #eeede2;
+}
+
+.project.small {
+    height: 360px;
+}
+
+.project.medium {
+    height: 480px;
+}
+
+.project a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: MerriweatherRegular;
+    font-size: 16px;
+    color: #1d1d1b;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 1px solid #d1d1d1;
 }
 
 .skills ul{
