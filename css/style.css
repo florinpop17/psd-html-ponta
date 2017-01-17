@@ -108,15 +108,19 @@ h5 {
 
 /* Navbar */
 
+.navbar {
+    top: -70px;
+    position: static;
+    transition: top 0.5s ease;
+}
+
 .navbar.fixed {
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
     z-index: 1;
-    transform: all 0.3 ease;
     border-bottom: 1px solid #e9e9e9;
     padding-bottom: 10px;
     width: 100%;
+    top: 0;
 }
 
 .navbar-brand img {
