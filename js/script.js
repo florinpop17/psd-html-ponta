@@ -2,18 +2,18 @@ $(document).ready(function(){
     var scrollFromTop = $(window).scrollTop();
     var navbarHeight = $(".navbar").height();
     
-    toggleFixed();
+    toggleScrolled();
     
     $(window).scroll(function (event) {
         scrollFromTop = $(window).scrollTop();
-        toggleFixed();
+        toggleScrolled();
     });
     
-    function toggleFixed() {
+    function toggleScrolled() {
         if(scrollFromTop > navbarHeight) {
-            $(".navbar").addClass('fixed');
+            $(".navbar").addClass('scrolled');
         } else {
-            $(".navbar").removeClass('fixed');
+            $(".navbar").removeClass('scrolled');
         }
     }
     
