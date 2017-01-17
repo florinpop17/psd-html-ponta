@@ -3,7 +3,7 @@ $(document).ready(function(){
         var scrollFromTop = $(window).scrollTop();
         var navbarHeight = $(".navbar").height();
         
-        if(scrollFromTop > navbarHeight) {
+        if(scrollFromTop > 1) {
             $(".navbar").addClass('fixed');
         } else {
             $(".navbar").removeClass('fixed');
