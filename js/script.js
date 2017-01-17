@@ -1,6 +1,5 @@
 $(document).ready(function(){
     var scrollFromTop = $(window).scrollTop();
-    var navbarHeight = $(".navbar").height();
     
     toggleScrolled();
     
@@ -10,7 +9,7 @@ $(document).ready(function(){
     });
     
     function toggleScrolled() {
-        if(scrollFromTop > navbarHeight) {
+        if(scrollFromTop > 40) {
             $(".navbar").addClass('scrolled');
         } else {
             $(".navbar").removeClass('scrolled');

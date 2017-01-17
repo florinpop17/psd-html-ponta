@@ -109,17 +109,17 @@ h5 {
 /* Navbar */
 
 .navbar {
-    top: -70px;
-    transition: top 0.5s ease;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    padding-bottom: 10px;
+    top: 0;
+    transition: all 0.5s ease;
+    width: 100%;
+    z-index: 1;
 }
 
-.navbar.fixed {
-    position: fixed;
-    z-index: 1;
+.navbar.scrolled {
     border-bottom: 1px solid #e9e9e9;
-    padding-bottom: 10px;
-    width: 100%;
-    top: 0;
 }
 
 .navbar-brand img {
