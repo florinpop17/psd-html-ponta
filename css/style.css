@@ -108,14 +108,18 @@ h5 {
 
 /* Navbar */
 
-.nav-container.fixed {
-    border-bottom: 1px solid #e9e9e9;
+.navbar{
+    width: 100%;
+    background-color: white;
 }
 
-.nav-container.fixed .navbar {
+.navbar.fixed {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
+    transform: all 0.3 ease;
+    border-bottom: 1px solid #e9e9e9;
 }
 
 .navbar-brand img {
