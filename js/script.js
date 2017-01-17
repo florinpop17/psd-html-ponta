@@ -4,9 +4,9 @@ $(document).ready(function(){
         var navbarHeight = $(".navbar").height();
         
         if(scrollFromTop > navbarHeight) {
-            $(".navbar").css("position", "fixed");
+            $(".nav-container").addClass('fixed');
         } else {
-            $(".navbar").css("position", "static");
+            $(".nav-container").removeClass('fixed');
         }
     });
 });
