@@ -37,7 +37,7 @@ $(document).ready(function(){
     
     
     function parallax() {
-        var parallax_2 = $(".parallax-2");
-        parallax_2.css("background-position", "center "+ (-scrollFromTop / 2) +"px");
+        var parallax = $(".parallax");
+        parallax.css("background-position", "center "+ (-scrollFromTop / 2) +"px");
     }
 });
