@@ -42,6 +42,13 @@ $(document).ready(function(){
         
         
         var parallax_sub = $(".parallax-sub");
-        parallax_sub.css("background-position", "center "+ (-scrollFromTop / 8) +"px");
+        parallax_sub.each(function(idx){
+            var topOffset = $(this).offset().top;
+            var wHeight = $(window).height();
+            var imgHeight = $(this).height() * 4;
+            var calc = -(scrollFromTop - topOffset + wHeight + imgHeight) / 20;
+
+            $(this).css("background-position", "center "+ calc +"px");
+        });
     }
 });
