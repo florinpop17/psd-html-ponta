@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    
+    //Check scroll and add border to the nav
     var scrollFromTop = $(window).scrollTop();
     
     toggleScrolled();
@@ -16,6 +18,7 @@ $(document).ready(function(){
         }
     }
     
+    //Dynamic text on index header
     var arrText = ['.', '..', '...', 'leistungsfähig', 'leistungwillig', 'pragmatisch', 'commited', 'strategisch', 'beweglich', 'kreativ', 'schnell', 'oho' ];
     var arrIndex = 0;
     
@@ -29,4 +32,8 @@ $(document).ready(function(){
             clearInterval(changingText);
         }
     }, 500);
+    
+    
+    //Parallax
+    
 });
