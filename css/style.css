@@ -441,9 +441,7 @@ ul.nav.navbar-nav {
 .special-header-background {
     background-image: url("../img/contact-bw-cut.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 0px;
-    background-attachment: fixed;
+    background-position: center top;
     height: 300px;
     padding-top: 114px;
     padding-bottom: 114px;

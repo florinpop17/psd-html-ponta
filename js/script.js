@@ -8,6 +8,8 @@ $(document).ready(function(){
     $(window).scroll(function (event) {
         scrollFromTop = $(window).scrollTop();
         toggleScrolled();
+        
+        parallax();
     });
     
     function toggleScrolled() {
@@ -34,6 +36,8 @@ $(document).ready(function(){
     }, 500);
     
     
-    //Parallax
-    
+    function parallax() {
+        var parallax_2 = $(".parallax-2");
+        parallax_2.css("background-position", "center "+ (-scrollFromTop / 2) +"px");
+    }
 });
