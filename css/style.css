@@ -442,7 +442,7 @@ ul.nav.navbar-nav {
     background-image: url("../img/contact-bw-cut.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center 0px;
     background-attachment: fixed;
     height: 300px;
     padding-top: 114px;
