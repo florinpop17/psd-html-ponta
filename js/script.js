@@ -43,6 +43,7 @@ $(document).ready(function(){
         
         var parallax_sub = $(".parallax-sub");
         parallax_sub.each(function(idx){
+            
             var topOffset = $(this).offset().top;
             var wHeight = $(window).height();
             var imgHeight = $(this).height() * 4;
