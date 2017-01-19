@@ -340,17 +340,14 @@ ul.nav.navbar-nav {
 }
 
 .parallax {
-    background-size: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
+    background-position: center top;
+    
 }
 
 .parallax-sub {
-    background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .art p{

@@ -38,6 +38,10 @@ $(document).ready(function(){
     
     function parallax() {
         var parallax = $(".parallax");
-        parallax.css("background-position", "center "+ (-scrollFromTop / 2) +"px");
+        parallax.css("background-position", "center "+ (-scrollFromTop / 8) +"px");
+        
+        
+        var parallax_sub = $(".parallax-sub");
+        parallax_sub.css("background-position", "center "+ (-scrollFromTop / 8) +"px");
     }
 });
