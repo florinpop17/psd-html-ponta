@@ -279,7 +279,7 @@ ul.nav.navbar-nav {
     padding: 0;
 }
 
-.skills h4 {
+.skills ul li > h4 {
     font-size: 20px;
     font-family: LatoRegular;
     font-weight: bold;
@@ -341,7 +341,7 @@ ul.nav.navbar-nav {
 
 .parallax {
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
     
 }
 

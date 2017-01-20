@@ -4,6 +4,8 @@ $(document).ready(function(){
     var scrollFromTop = $(window).scrollTop();
     
     toggleScrolled();
+    parallax();
+    
     
     $(window).scroll(function (event) {
         scrollFromTop = $(window).scrollTop();
@@ -38,16 +40,16 @@ $(document).ready(function(){
     
     function parallax() {
         var parallax = $(".parallax");
-        parallax.css("background-position", "center "+ (-scrollFromTop / 8) +"px");
+        parallax.css("background-position", "center "+ (scrollFromTop / 8 - 80) +"px");
         
         
         var parallax_sub = $(".parallax-sub");
         parallax_sub.each(function(idx){
             
             var topOffset = $(this).offset().top;
-            var wHeight = $(window).height();
-            var imgHeight = $(this).height() * 4;
-            var calc = -(scrollFromTop - topOffset + wHeight + imgHeight) / 20;
+            //var wHeight = $(window).height();
+            //var imgHeight = $(this).height() * 4;
+            var calc = (scrollFromTop - topOffset) / 25 - 60;
 
             $(this).css("background-position", "center "+ calc +"px");
         });
