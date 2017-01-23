@@ -705,12 +705,14 @@ footer .pull-right a {
     }
     
     .pontateam {
-        background-size: cover;
         height: 300px;
     }
     
+    .parallax, .parallax-sub {
+        background-size: cover; 
+    }
+    
     .parallax-sub {
-        background-size: cover;
         height: 150px;
     }
     

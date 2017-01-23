@@ -44,20 +44,30 @@ $(document).ready(function(){
     
     //Parallax effect calculation
     function parallax() {
-        var parallax = $(".parallax");
-        parallax.css("background-position", "center "+ (scrollFromTop / 8 - 80) +"px");
-        
-        
-        var parallax_sub = $(".parallax-sub");
-        parallax_sub.each(function(idx){
-            
-            var topOffset = $(this).offset().top;
-            //var wHeight = $(window).height();
-            //var imgHeight = $(this).height() * 4;
-            var calc = (scrollFromTop - topOffset) / 25 - 60;
+        //if it's not mobile
+        //Switching off parallax on mobile
+        if(wWidth > 768){
+            var parallax = $(".parallax");
+            var wWidth = $(window).width();
 
-            $(this).css("background-position", "center "+ calc +"px");
-        });
+            //Subtract from parallax top
+            var subtractTop = 80;
+
+            parallax.css("background-position", "center "+ (scrollFromTop / 8 - subtractTop) +"px");
+
+
+            var parallax_sub = $(".parallax-sub");
+            parallax_sub.each(function(idx){
+
+                var topOffset = $(this).offset().top;
+                //var wHeight = $(window).height();
+                //var imgHeight = $(this).height() * 4;
+
+                var calc = (scrollFromTop - topOffset) / 25 - 60;
+
+                $(this).css("background-position", "center "+ calc +"px");
+            });
+        }
     }
     
     //Skills on click
