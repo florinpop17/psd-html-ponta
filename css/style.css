@@ -546,10 +546,9 @@ footer .pull-right a {
 
 /* Nav icon style */
 #nav-icon3 {
-  width: 60px;
+  width: 40px;
   height: 45px;
   position: relative;
-  margin: 50px auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -561,13 +560,17 @@ footer .pull-right a {
   cursor: pointer;
 }
 
+#nav-icon3, #nav-icon3:hover, #nav-icon3:active, #nav-icon3:focus {
+    background: transparent;
+    border: none;
+}
+
 #nav-icon3 span{
   display: block;
   position: absolute;
   height: 9px;
   width: 100%;
-  background: #d3531a;
-  border-radius: 9px;
+  background: #000;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
