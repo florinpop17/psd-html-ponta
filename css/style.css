@@ -546,18 +546,19 @@ footer .pull-right a {
 
 /* Nav icon style */
 #nav-icon3 {
-  width: 40px;
-  height: 45px;
-  position: relative;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
+    margin-top: 15px;
+    width: 25px;
+    height: 45px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
 }
 
 #nav-icon3, #nav-icon3:hover, #nav-icon3:active, #nav-icon3:focus {
@@ -566,21 +567,21 @@ footer .pull-right a {
 }
 
 #nav-icon3 span{
-  display: block;
-  position: absolute;
-  height: 9px;
-  width: 100%;
-  background: #000;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #000;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
 }
 
 #nav-icon3 span:nth-child(1) {
@@ -588,11 +589,11 @@ footer .pull-right a {
 }
 
 #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
-  top: 18px;
+  top: 10px;
 }
 
 #nav-icon3 span:nth-child(4) {
-  top: 36px;
+  top: 20px;
 }
 
 #nav-icon3.open span:nth-child(1) {
@@ -642,7 +643,16 @@ footer .pull-right a {
     .navbar-header a.active img {
         border-top: 0;
         padding-top: 10px;
-    }   
+    }
+    
+    .navbar-header .navbar-brand {
+        display: block;
+        left: 50%;
+        margin-left: auto;
+        margin-top: 5px;
+        position: absolute;
+        transform: translateX(-50%);
+    }
     
     .navbar-collapse {
         box-shadow: none;
