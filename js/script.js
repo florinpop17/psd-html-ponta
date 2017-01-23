@@ -58,24 +58,5 @@ $(document).ready(function(){
     //Skills on click
     $(".skills li a").click(function(e){
         
-        //Add/Change active class
-        $(".skill-link").removeClass("active");
-        $(this).addClass("active");
-        
-        //Prevent default hop on top effect
-        e.preventDefault();
-        
-        //Add content to the category-info div with AJAX...
-        
-        //Position the category-info div in the corresponding UL
-        
-        //Get height of the category-info div
-        var cat_info_height = $("#category-info").height();
-        
-        //Margin bottom to the ul by the height of the div
-        $(this).parent().parent().css("margin-bottom", cat_info_height+"px");
-        
-        //Show the category-info div
-        $("#category-info").css("display", "block");
     });
 });
