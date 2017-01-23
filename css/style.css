@@ -559,7 +559,7 @@ footer .pull-right a {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 36px;
+        font-size: 30px;
     }
     
     h3 {
@@ -569,5 +569,11 @@ footer .pull-right a {
     h4 {
         font-size: 16px;
     }
+    
+    .special-header {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
 }
 
