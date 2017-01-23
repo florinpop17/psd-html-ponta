@@ -45,10 +45,10 @@ $(document).ready(function(){
     //Parallax effect calculation
     function parallax() {
         //if it's not mobile
+        var wWidth = $(window).width();
         //Switching off parallax on mobile
         if(wWidth > 768){
             var parallax = $(".parallax");
-            var wWidth = $(window).width();
 
             //Subtract from parallax top
             var subtractTop = 80;
