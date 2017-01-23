@@ -704,6 +704,16 @@ footer .pull-right a {
         display: block;
     }
     
+    .pontateam {
+        background-size: cover;
+        height: 300px;
+    }
+    
+    .parallax-sub {
+        background-size: cover;
+        height: 150px;
+    }
+    
     footer {
         padding-top: 15px;
         padding-bottom: 15px;
