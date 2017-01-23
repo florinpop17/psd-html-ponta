@@ -37,7 +37,7 @@ $(document).ready(function(){
         }
     }, 500);
     
-    
+    //Parallax effect calculation
     function parallax() {
         var parallax = $(".parallax");
         parallax.css("background-position", "center "+ (scrollFromTop / 8 - 80) +"px");
@@ -54,4 +54,10 @@ $(document).ready(function(){
             $(this).css("background-position", "center "+ calc +"px");
         });
     }
+    
+    //Skills on click
+    $(".skills li a").click(function(){
+        $(".skill-link").removeClass("active");
+        $(this).addClass("active"); 
+    });
 });
