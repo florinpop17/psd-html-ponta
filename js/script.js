@@ -57,10 +57,18 @@ $(document).ready(function(){
     
     //Skills on click
     $(".skills li a").click(function(e){
+        var cat_info = $("#category-info");
+        var holding_li = $(this).parent().parent().parent();
         
         //Add/Change active class
         $(".skill-link").removeClass("active");
         $(this).addClass("active");
+        
+        //Hide category-info div if it was showing
+        cat_info.css("display", "none");
+        
+        //Remove margin-bottom if it is any
+        $(".skills > ul > li").css("margin-bottom", "0");
         
         //Prevent default hop on top effect
         e.preventDefault();
@@ -68,17 +76,15 @@ $(document).ready(function(){
         //Add content to the category-info div with AJAX...
         
         //Position the category-info div in the corresponding UL
+        holding_li.append(cat_info);
         
         //Get height of the category-info div
-        var cat_info_height = $("#category-info").height();
+        var cat_info_height = cat_info.height() + 150;
         
         //Margin bottom to the holding li by the height of the div
-        
-        //Parent 1 is li, parent 2 is ul, parent 3 is li as following:
-        //ul > li > ul > li > a
-        $(this).parent().parent().parent().css("margin-bottom", cat_info_height+"px");
+        holding_li.css("margin-bottom", cat_info_height+"px");
         
         //Show the category-info div
-        $("#category-info").css("display", "block");
+        cat_info.css("display", "block");
     });
 });
