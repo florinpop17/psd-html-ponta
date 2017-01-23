@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    //Nav icon
+    $('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+	});
     
     //Check scroll and add border to the nav
     var scrollFromTop = $(window).scrollTop();
