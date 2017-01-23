@@ -703,5 +703,31 @@ footer .pull-right a {
         display: block;
     }
     
+    footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    
+    footer a {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    
+    footer .footer-icon img{
+        height: 30px;
+        width: 30px;
+    }
+    
+    footer .pull-right {
+        float: none !important;
+        margin-top: 35px;
+    }
+    
+    footer .pull-right a {
+        margin-left: 0;
+    }
+    
 }
 
