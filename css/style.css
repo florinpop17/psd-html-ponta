@@ -555,22 +555,18 @@ footer .pull-right a {
     ul.nav.navbar-nav {
         margin-left: 0;
     }
+    
+    h1 {
+        font-size: 64px;
+    }
 }
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
     
-    h3 {
-        font-size: 24px;
-    }
-    
-    h4 {
-        font-size: 16px;
-    }
-    
-    .special-header {
+    .special-header, .header-big {
         padding-top: 120px;
         padding-bottom: 120px;
     }
