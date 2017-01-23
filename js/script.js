@@ -81,7 +81,7 @@ $(document).ready(function(){
         holding_li.css("margin-bottom", cat_info_height+"px");
         
         //Show the category-info div
-        cat_info.css("display", "block");
+        cat_info.addClass("showing");
     });
     
     $("#category-info .btn-close").click(function(){
@@ -90,7 +90,7 @@ $(document).ready(function(){
     
     function reset_cat_info() {
         //Hide category-info div if it was showing
-        $("#category-info").css("display", "none"); 
+        $("#category-info").removeClass("showing"); 
         
         //Remove margin-bottom if it is any
         $(".skills > ul > li").css("margin-bottom", "0");
