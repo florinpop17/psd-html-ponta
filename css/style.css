@@ -42,6 +42,10 @@ h1 {
     font-family: LatoBlack;
 }
 
+h1, h3 {
+    margin-top: 10px;
+}
+
 h3 {
     color: #1d1d1b;
     font-size: 36px;
@@ -78,7 +82,7 @@ h5 {
     height: 10px;
     background-color: #1d1d1b;
     left: 50%;
-    top: 330px;
+    top: 300px;
     transform: translateX(-50%);
     position: absolute;
 }
@@ -695,9 +699,25 @@ footer .pull-right a {
         font-size: 50px;
     }
     
+    .contact-simple-box img {
+        margin-bottom: 10px;
+    }
+    
+    .special-header-background {
+        height: auto;
+    }
+    
+    .special-header::after{
+        top: 160px;
+    }
+    
+    .special-header-background::after {
+        top: 150px;
+    }
+    
     .special-header, .header-big {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
     
     #added_text {
@@ -705,7 +725,7 @@ footer .pull-right a {
     }
     
     .pontateam {
-        height: 300px;
+        height: 250px;
     }
     
     .parallax, .parallax-sub {
