@@ -262,6 +262,10 @@ ul.nav.navbar-nav {
     margin-bottom: 100px;
 }
 
+.project-category{
+    margin-bottom: 60px;
+}
+
 .projects .project {
     margin-bottom: 30px;
     position: relative;
