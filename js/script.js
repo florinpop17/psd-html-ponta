@@ -60,15 +60,11 @@ $(document).ready(function(){
         var cat_info = $("#category-info");
         var holding_li = $(this).parent().parent().parent();
         
-        //Add/Change active class
-        $(".skill-link").removeClass("active");
+        //Reset to default state
+        reset_cat_info();
+        
+        //Add active class
         $(this).addClass("active");
-        
-        //Hide category-info div if it was showing
-        cat_info.css("display", "none");
-        
-        //Remove margin-bottom if it is any
-        $(".skills > ul > li").css("margin-bottom", "0");
         
         //Prevent default hop on top effect
         e.preventDefault();
@@ -87,4 +83,19 @@ $(document).ready(function(){
         //Show the category-info div
         cat_info.css("display", "block");
     });
+    
+    $("#category-info .btn-close").click(function(){
+        reset_cat_info(); 
+    });
+    
+    function reset_cat_info() {
+        //Hide category-info div if it was showing
+        $("#category-info").css("display", "none"); 
+        
+        //Remove margin-bottom if it is any
+        $(".skills > ul > li").css("margin-bottom", "0");
+        
+        //Remove active class
+        $(".skill-link").removeClass("active");
+    }
 });
