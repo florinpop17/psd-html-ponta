@@ -28,7 +28,7 @@ $(document).ready(function(){
     }
     
     //Dynamic text on index header
-    var arrText = ['.', '..', '...', 'leistungsfähig', 'leistungwillig', 'pragmatisch', 'commited', 'strategisch', 'beweglich', 'kreativ', 'schnell', 'oho' ];
+    var arrText = ['..', '...', 'leistungsfähig', 'leistungwillig', 'pragmatisch', 'commited', 'strategisch', 'beweglich', 'kreativ', 'schnell', 'oho' ];
     var arrIndex = 0;
     
     var changingText = setInterval(function(){

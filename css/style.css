@@ -691,12 +691,16 @@ footer .pull-right a {
     }
     
     h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
     
     .special-header, .header-big {
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+    
+    #added_text {
+        display: block;
     }
     
 }
