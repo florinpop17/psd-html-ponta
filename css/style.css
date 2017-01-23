@@ -308,7 +308,7 @@ ul.nav.navbar-nav {
     font-size: 16px;
 }
 
-.skills li a:hover {
+.skills li a:hover, .skills li a.active {
     color: #b21919;
     text-decoration: underline;
 }
