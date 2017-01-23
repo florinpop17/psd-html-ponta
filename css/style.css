@@ -116,7 +116,7 @@ h5 {
     padding-bottom: 10px;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navbar.scrolled {
@@ -228,13 +228,15 @@ ul.nav.navbar-nav {
 
 /* Was wir tun page */
 
-.category-info{
+#category-info{
     background: #fbfaf8; /* Old browsers */
     background: -moz-linear-gradient(top, #fbfaf8 0%, #ffffff 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #fbfaf8 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #fbfaf8 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfaf8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
     
+    
+    display: none;
     padding: 50px 0;
     position: absolute;
     left: 0;
