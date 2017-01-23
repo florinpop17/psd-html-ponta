@@ -72,8 +72,11 @@ $(document).ready(function(){
         //Get height of the category-info div
         var cat_info_height = $("#category-info").height();
         
-        //Margin bottom to the ul by the height of the div
-        $(this).parent().parent().css("margin-bottom", cat_info_height+"px");
+        //Margin bottom to the holding li by the height of the div
+        
+        //Parent 1 is li, parent 2 is ul, parent 3 is li as following:
+        //ul > li > ul > li > a
+        $(this).parent().parent().parent().css("margin-bottom", cat_info_height+"px");
         
         //Show the category-info div
         $("#category-info").css("display", "block");
