@@ -562,6 +562,43 @@ footer .pull-right a {
 }
 
 @media (max-width: 768px) {
+    .navbar-collapse {
+        margin-top: 20px;
+        box-shadow: none;
+        border: none;
+    }
+    
+    .navbar li.active a {
+        border-top: none;
+    }
+    
+    ul.nav.navbar-nav {
+        margin: 0 -15px;
+    }
+    
+    .navbar li {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    
+    .navbar-nav > li > a, .navbar-header a, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    ul.nav.navbar-right {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        width: 48px;
+    }
+    
+    .navbar-right li {
+        float: left;
+    }
+    
     h1 {
         font-size: 40px;
     }
