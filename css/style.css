@@ -235,14 +235,20 @@ ul.nav.navbar-nav {
     background: linear-gradient(to bottom, #fbfaf8 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfaf8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
     
-    
     display: none;
     padding: 50px 15px;
     position: absolute;
     left: 0;
     margin-top: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
     width: 100%;
     z-index: 1;
+}
+
+#category-info.showing {
+    display: block;
+    opacity: 1;
 }
 
 .category-description {
