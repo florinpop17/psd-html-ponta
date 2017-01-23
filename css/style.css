@@ -529,6 +529,10 @@ footer:before {
     background-color: #a2a2a1;
 }
 
+footer .social-icons {
+    display: inline-block;
+}
+
 footer .footer-icon img{
     height: 20px;
     width: 20px;
@@ -743,9 +747,17 @@ footer .pull-right a {
         text-align: center;
     }
     
-    footer a {
+    footer .social-icons {
         display: block;
+        margin-bottom: 15px;
+    }
+    
+    footer a {
         margin: 10px 0;
+    }
+    
+    footer a:first-of-type {
+        margin-right: 15px;
     }
     
     footer .footer-icon img{
@@ -755,7 +767,7 @@ footer .pull-right a {
     
     footer .pull-right {
         float: none !important;
-        margin-top: 35px;
+        margin-top: 15px;
     }
     
     footer .pull-right a {

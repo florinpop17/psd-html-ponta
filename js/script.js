@@ -97,10 +97,26 @@ $(document).ready(function(){
         
         //Show the category-info div
         cat_info.addClass("showing");
+        
+        
+        var offset = -50;
+        $('html, body').animate({
+            scrollTop: cat_info.offset().top + offset
+        }, 500);
+        
     });
     
-    $("#category-info .btn-close").click(function(){
-        reset_cat_info(); 
+    $("#category-info .btn-close").click(function(e){
+        e.preventDefault();
+        
+        var offset = -150;
+        var currentActive = $(".skills li a.active");
+        
+        reset_cat_info();
+        
+        $('html, body').animate({
+            scrollTop: currentActive.offset().top + offset
+        }, 500);
     });
     
     function reset_cat_info() {
