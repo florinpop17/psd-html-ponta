@@ -2,6 +2,7 @@ $(document).ready(function(){
     //Nav icon
     $('#nav-icon3').click(function(){
 		$(this).toggleClass('open');
+        $(".navbar").addClass('scrolled');
 	});
     
     //Check scroll and add border to the nav
