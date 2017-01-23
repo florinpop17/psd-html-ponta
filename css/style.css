@@ -562,6 +562,11 @@ footer .pull-right a {
 }
 
 @media (max-width: 768px) {
+    .navbar-header a.active img {
+        border-top: 0;
+        padding-top: 10px;
+    }   
+    
     .navbar-collapse {
         box-shadow: none;
         border: none;
